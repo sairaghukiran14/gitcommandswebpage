@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.commandcopy {
+  font-family: "Source Code Pro", monospace;
+  cursor: pointer;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  background: url(./assets/background1.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
